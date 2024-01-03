@@ -36,7 +36,146 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="manifest" href="/site.webmanifest">
+    <style>
+               body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        header p {
+            font-style: italic;
+        }
+
+        #social-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        #icon-social {
+            text-align: center;
+            margin-right: 20px;
+            flex: 1;
+        }
+
+        #icon-social img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        #social-icons {
+            text-align: center;
+            display: flex;
+            align-items: center;
+            flex: 1;
+        }
+
+        #social-icons img {
+            width: 30px;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+
+        #stats-container {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            text-align: center;
+        }
+
+        #stats-container h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        #monthly-stats {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .month {
+            width: 30%;
+            margin: 10px;
+            padding: 15px;
+            background-color: #ddd;
+            cursor: pointer;
+            opacity: 0.5;
+            pointer-events: none;
+        }
+
+        .month.active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        #music-container {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            text-align: center;
+        }
+
+        #music-container h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        #music-image-container {
+            position: relative;
+        }
+
+        #music-image {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .listen-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 15px 20px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #333;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .listen-button:hover {
+            background-color: #555;
+        }
+    </style>
 </head>
 
 <body>
