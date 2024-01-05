@@ -21,4 +21,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+   <url>
+    <loc>https://luciadlpstats.com/redes.html</loc>
+    <lastmod>2024-01-05T13:14:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
 </urlset>
